@@ -1,0 +1,106 @@
+.flag-icon-background {
+    background-size: contain;
+    background-position: 50%;
+    background-repeat: no-repeat;
+  }
+  .flag-icon {
+    background-size: contain;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    position: relative;
+    display: inline-block;
+    width: 1.33333333em;
+    line-height: 1em;
+  }
+  .flag-icon:before {
+    content: "\00a0";
+  }
+  .flag-icon.flag-icon-squared {
+    width: 1em;
+  }
+
+  .flag-icon-cn {
+    background-image: url('/img/flags/cn.svg');
+  }
+
+  .flag-icon-dk {
+    background-image: url('/img/flags/dk.svg');
+  }
+
+  .flag-icon-us {
+    background-image: url('/img/flags/us.svg');
+  }
+
+  .lang-switcher {
+    display: none; 
+  }
+  
+  #lang-a{
+    padding-left: 0px;
+  }
+  
+  #lang-a img, .lang-button img{
+    width: 12px;
+    
+  }
+  
+  #lang-a li{
+    list-style: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  
+  #lang-a li:hover{
+   background-color: #F4F3F3;
+  }
+  
+  #lang-a li img{
+    margin: 5px;
+  }
+  
+  #lang-a li span, .lang-button li span{
+    margin-left: 10px;
+    color:#8898aa;
+    font-size:.875rem;
+  }
+  
+  .lang-b{
+    display: none;
+    width: 100%;
+    max-width: 150px;
+    box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: 5px;
+    position:absolute;
+    z-index:999;
+    background:white;
+  }
+  
+  .open{
+    display: show !important;
+  }
+  
+  .lang-button{
+    width:120px;
+    background-color: #fff;
+    border: 0;
+  }
+  .lang-button li{
+    list-style: none;
+    float: left;
+    padding-bottom: 0px;
+  }
+  
+  .lang-button:hover li{
+    margin-left: 0px;
+  }
+  
+  .lang-button:hover{
+    background-color: #F4F3F3;
+    border: none;
+  }
+  
+  .lang-button:focus{
+     outline:none;
+  }
+
